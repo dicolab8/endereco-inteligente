@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Endereço</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>Cadastro de Endereço</h1>
+
+    <form id="enderecoForm">
+      <div>
+        <label for="cep">CEP *</label><br>
+        <input type="text" id="cep" name="cep" maxlength="9" placeholder="00000-000" required>
+      </div>
+
+      <div>
+        <label for="logradouro">Logradouro *</label><br>
+        <input type="text" id="logradouro" name="logradouro" minlength="5" required>
+      </div>
+
+      <div>
+        <label for="numero">Número *</label><br>
+        <input type="text" id="numero" name="numero" required>
+      </div>
+
+      <div>
+        <label for="uf">UF *</label><br>
+        <input type="text" id="uf" name="uf" maxlength="2" placeholder="SP" required>
+      </div>
+
+      <div>
+        <label for="complemento">Complemento</label><br>
+        <input type="text" id="complemento" name="complemento">
+      </div>
+
+      <button type="submit">Cadastrar Endereço</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
