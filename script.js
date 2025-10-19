@@ -1,3 +1,4 @@
+//script principal para configurar mascara de campos
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("enderecoForm");
   const cepInput = document.getElementById("cep");
